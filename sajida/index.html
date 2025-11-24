@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sajida Khoso - Software Engineer. Portfolio featuring journey, projects, skills, and certifications."
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="script.png" type="image/x-icon" />
+    <title>Sajida Khoso — Portfolio</title>
+
+    <!-- Fonts: Inter (UI) and JetBrains Mono (Code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Loader / Hero prelude -->
+    <div id="loader" aria-hidden="true">
+      <div class="spinner"></div>
+      <p class="loader-text">Loading Portfolio...</p>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="home">
+      <nav class="nav container" aria-label="Primary">
+        <a href="#home" class="logo" aria-label="Home">
+          <span class="logo-mark">&lt;/&gt;</span>
+          <span class="logo-text">Sajida Khoso</span>
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Toggle navigation"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#journey" class="nav-link">Journey</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certs" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section">
+      <canvas id="matrix-bg" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="hero-content reveal">
+          <p class="hero-eyebrow">Hello, I'm</p>
+          <h1 class="hero-title">Sajida Khoso</h1>
+          <p class="hero-subtitle">AI is my co-pilot, Code is my canvas</p>
+          <p class="hero-desc">
+            Transforming complex AI concepts into practical solutions.
+            Specializing in NLP, Computer Vision, and Cloud AI Engineering.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View My Work</a>
+            <a class="btn btn-outline" href="#contact">Get in Touch</a>
+          </div>
+          <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">Machine Learning</span>
+            <span class="badge">Computer Vision</span>
+            <span class="badge">Generative AI</span>
+            <span class="badge">FastAPI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="section alt">
+      <div class="container grid about-grid reveal">
+        <div class="about-photo" role="img" aria-label="Portrait placeholder">
+          <img src="201775925.jpeg" alt="" />
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I'm <strong>Sajida Khoso</strong>, a passionate
+            <strong>AI &amp; ML Engineer</strong> focused on building reliable,
+            user‑centric intelligent systems.
+          </p>
+          <p>
+            I specialize in model development, experimentation, and deploying
+            AI/ML systems to the cloud. I enjoy turning complex problems into
+            simple, scalable solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="section">
+      <div class="container">
+        <h2 class="section-title">My Journey</h2>
+        <div class="timeline reveal">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <!-- Item 1 -->
+          <article class="timeline-item left">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">
+                AI & ML Engineer Intern — DevelopersHub Corporation
+              </h3>
+              <div class="timeline-meta">July 2025 — Sep 2025</div>
+              <ul>
+                <li>
+                  I gained valuable hands-on experience in developing,
+                  fine-tuning, and evaluating machine learning and deep learning
+                  models
+                </li>
+                <li>
+                  Integrated the model into a real-world application, gaining
+                  hands-on experience in AI/ML model deployment and evaluation.
+                </li>
+              </ul>
+            </div>
+          </article>
+          <!-- Item 2 -->
+          <article class="timeline-item right">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">Data Analyst - Fluxxion</h3>
+              <div class="timeline-meta">June 2025 — July 2025</div>
+              <ul>
+                <li>
+                  I gained practical, hands-on experience in data cleaning,
+                  transformation, and analysis using tools like SQL and Pythonn.
+                </li>
+                <li>
+                  I also learned how to build interactive dashboards with Power
+                  BI and extract meaningful insights from real-world datasets
+                </li>
+                <li>
+                  This fellowship significantly strengthened my analytical
+                  thinking and data visualization skills, preparing me to tackle
+                  real data challenges with confidence
+                </li>
+              </ul>
+            </div>
+          </article>
+          <!-- Item 3 -->
+          <article class="timeline-item left">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-role">
+                Machine Learning Intern — Arch Technologies
+              </h3>
+              <div class="timeline-meta">May 2025 — July 2025</div>
+              <ul>
+                <li>
+                  Worked on Time Series Analysis projects, including ETH/USDT
+                  market projections using ARIMA and other forecasting models.
+                </li>
+                <li>
+                  Gained hands-on experience in Python, PyTorch, CNNs, ARIMA,
+                  and data preprocessing pipelines for both financial and
+                  medical AI projects.
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid reveal">
+          <!-- Card template -->
+          <article class="project-card">
+            <h3 class="project-title">Image Classification Model</h3>
+            <p class="project-desc">
+              This project focuses on building a complete image classification
+              system using deep learning and convolutional neural networks
+              (CNNs). It includes end-to-end steps such as dataset loading,
+              preprocessing, augmentation, model building, training, and
+              performance evaluation. The notebook demonstrates how images are
+              transformed into numerical representations and how the model
+              learns to identify patterns across classes. 
+            </p>
+            <div class="badges">
+              <span class="badge">Python</span>
+              <span class="badge">TensorFlow</span>
+              <span class="badge">Scikit-learn</span>
+              <span class="badge">Regression Models</span>
+              <span class="badge">Data Visualization</span>
+            </div>
+            <a
+              class="btn"
+              href="https://github.com/sajidakhoso/Image-Classification-Model"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </article>
+
+          <article class="project-card">
+            <h3 class="project-title">
+              Python-Based Student Management System
+            </h3>
+            <p class="project-desc">
+              This project is a practical software solution developed in Python
+              to manage student records efficiently. It allows users to add new
+              students, update existing details, remove records, and display
+              information through a clean, menu-driven interface. The system
+              uses structured data storage techniques, making it easy to handle
+              multiple entries and perform CRUD operations smoothly. By working
+              on this project, learners gain experience with core Python.
+            </p>
+            <div class="badges">
+              <span class="badge">Pandas</span>
+              <span class="badge">NumPy</span>
+              <span class="badge">EDA</span>
+              <span class="badge">Classification Models</span>
+            </div>
+            <a
+              class="btn"
+              href="https://github.com/sajidakhoso/Student-Management-System"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </article>
+
+          <article class="project-card">
+            <h3 class="project-title">Mini Library Management App</h3>
+            <p class="project-desc">
+              This Python-based mini library application provides a simple yet
+              powerful system to organize and manage books. Users can add new
+              books, search for available titles, issue or return books, and
+              keep track of library inventory. The project demonstrates the use
+              of classes and objects, showing how object-oriented programming
+              helps structure complex tasks in an easy and maintainable way.
+            </p>
+            <div class="badges">
+              <span class="badge">Python</span>
+              <span class="badge">Statsmodels</span>
+              <span class="badge">Time Series Forecasting</span>
+              <span class="badge">LSTM</span>
+              <span class="badge">Data Preprocessing</span>
+            </div>
+            <a
+              class="btn"
+              href="https://github.com/sajidakhoso/Mini-Library-App"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </article>
+
+          <article class="project-card">
+            <h3 class="project-title">Text-Based Python Chatbot</h3>
+            <p class="project-desc">
+              This beginner-friendly chatbot is built using Python and follows a
+              rule-based response system to interact with users. It takes user
+              queries, processes them through conditional logic, and provides
+              meaningful replies based on predefined rules. The project
+              introduces key concepts used in chatbots, such as text input
+              handling, string processing, and conversation flow. 
+            </p>
+            <div class="badges">
+              <span class="badge">Python</span>
+              <span class="badge">Model Evaluation</span>
+              <span class="badge">Logistic Regression</span>
+              <span class="badge">Random Forest</span>
+              <span class="badge">Streamlit Or Render</span>
+              <span class="badge">Data Cleaning</span>
+              <span class="badge">Medical Analytics</span>
+            </div>
+            <a
+              class="btn"
+              href="https://github.com/sajidakhoso/Python-text-based-chatbot"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </article>
+
+          <article class="project-card">
+            <h3 class="project-title">AI-Models-2025</h3>
+            <p class="project-desc">
+              AI-Models-2025 is a collection of notebook experiments showcasing
+              different AI / ML model architectures and workflows for 2025. Each
+              notebook demonstrates training, evaluation, and comparison of
+              models using sample datasets, helping users learn best practices
+              in model design, hyperparameter tuning, and performance analysis.
+              The project is ideal for anyone exploring AI model prototyping.
+            </p>
+            <div class="badges">
+              <span class="badge">Python</span>
+              <span class="badge">NLP</span>
+              <span class="badge">NLTK</span>
+              <span class="badge">Chatbot Development</span>
+              <span class="badge">Data Analysis</span>
+              <span class="badge">Flask</span>
+              <span class="badge">Intent Recognition</span>
+            </div>
+            <a
+              class="btn"
+              href="https://github.com/sajidakhoso/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </article>
+
+          <article class="project-card">
+            <h3 class="project-title">Responsive Porfolio</h3>
+            <p class="project-desc">
+              This Responsive Portfolio project is a modern, mobile-first
+              website template crafted using semantic HTML, responsive CSS
+              (Flexbox/Grid and media queries), and lightweight JavaScript for
+              interactivity. It includes sections for an about blurb, project
+              gallery (with filtering or modals), a skills/tech stack area, a
+              blog or notes section, and a contact form (can be wired to email
+              or serverless endpoints). 
+            </p>
+            <div class="badges">
+              <span class="badge">Python</span>
+              <span class="badge">NumPy</span>
+              <span class="badge">XGBoost</span>
+              <span class="badge">Bootstrap</span>
+              <span class="badge">Regression Models</span>
+              <span class="badge">Feature Engineering</span>
+            </div>
+            <a
+              class="btn"
+              href="https://sajidakhoso.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-grid reveal">
+          <article class="skill-card">
+            <h3 class="skill-title">AI/ML Skills</h3>
+            <div class="chips">
+              <span class="chip">Deep Learning</span>
+              <span class="chip">NLP</span>
+              <span class="chip">Computer Vision</span>
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Generative AI</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-title">Data Science</h3>
+            <div class="chips">
+              <span class="chip">EDA</span>
+              <span class="chip">Feature Engineering</span>
+              <span class="chip">Data Visualization</span>
+              <span class="chip">Data Analysis</span>
+              <span class="chip">Model Evaluation</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-title">Programming & Tools</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">C++</span>
+              <span class="chip">Pandas & NumPy</span>
+              <span class="chip">SQL</span>
+              <span class="chip">Matplotlib & Seaborn</span>
+              <span class="chip">GitHub</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3 class="skill-title">Frameworks & Deployment</h3>
+            <div class="chips">
+              <span class="chip">LangChain</span>
+              <span class="chip">PyTorch</span>
+              <span class="chip">TensorFlow</span>
+              <span class="chip">HuggingFace</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">Streamlit</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certs" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certs-row reveal" role="list">
+          <article class="cert-card" role="listitem">
+            <h3 class="cert-title">
+              Create Your First Python Program From UST
+            </h3>
+            <p class="cert-meta">UST • 2025</p>
+            <a
+              class="btn btn-outline"
+              href="https://www.coursera.org/account/accomplishments/verify/XOA5H7QX72G5"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Certificate</a
+            >
+          </article>
+          <article class="cert-card" role="listitem">
+            <h3 class="cert-title">
+              Introduction to Data Analysis using Microsoft Excel
+            </h3>
+            <p class="cert-meta">Coursera • 2025</p>
+            <a
+              class="btn btn-outline"
+              href="https://www.coursera.org/account/accomplishments/verify/P1S5DSIIVWZ0"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Certificate</a
+            >
+          </article>
+          <article class="cert-card" role="listitem">
+            <h3 class="cert-title">Python Coder Kaggle Certificate</h3>
+            <p class="cert-meta">Kaggle • 2025</p>
+            <a
+              class="btn btn-outline"
+              href="https://www.linkedin.com/in/sajida-khoso/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Certificate</a
+            >
+          </article>
+          <article class="cert-card" role="listitem">
+            <h3 class="cert-title">AI Genesis for Frost_Flashlog3</h3>
+            <p class="cert-meta">Lablab • 2025</p>
+            <a
+              class="btn btn-outline"
+              href="https://www.linkedin.com/in/sajida-khoso/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Certificate</a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact" class="footer">
+      <div class="container reveal">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="socials">
+          <a
+            class="social-link"
+            aria-label="LinkedIn"
+            href="https://www.linkedin.com/in/sajida-khoso/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="sr-only">LinkedIn</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8 8h3.8v2.2h.1c.5-1 1.7-2.2 3.6-2.2 3.8 0 4.5 2.5 4.5 5.8V24h-4v-7.2c0-1.7 0-3.9-2.4-3.9-2.4 0-2.8 1.8-2.8 3.8V24H8V8z"
+              />
+            </svg>
+          </a>
+          <a
+            class="social-link"
+            aria-label="GitHub"
+            href="https://github.com/sajidakhoso"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="sr-only">GitHub</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M12 .5C5.73.5.86 5.37.86 11.64c0 4.89 3.17 9.04 7.57 10.5.55.1.75-.24.75-.53 0-.26-.01-1.12-.02-2.03-3.08.67-3.73-1.32-3.73-1.32-.5-1.27-1.22-1.6-1.22-1.6-.99-.68.07-.66.07-.66 1.09.08 1.67 1.12 1.67 1.12.97 1.66 2.54 1.18 3.16.9.1-.7.38-1.18.7-1.45-2.46-.28-5.05-1.23-5.05-5.47 0-1.21.43-2.19 1.12-2.96-.11-.28-.49-1.4.11-2.92 0 0 .93-.3 3.05 1.13.89-.25 1.85-.38 2.8-.38.95 0 1.91.13 2.8.38 2.12-1.43 3.05-1.13 3.05-1.13.6 1.52.22 2.64.11 2.92.69.77 1.12 1.75 1.12 2.96 0 4.25-2.6 5.18-5.08 5.46.39.34.74 1.01.74 2.03 0 1.47-.01 2.66-.01 3.02 0 .29.2.63.76.52 4.39-1.46 7.56-5.61 7.56-10.5C23.14 5.37 18.27.5 12 .5z"
+              />
+            </svg>
+          </a>
+
+          <a
+            class="social-link"
+            aria-label="Kaggle"
+            href="https://www.kaggle.com/sajidakhoso"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="sr-only">Kaggle</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M4 5.5c0-.55.45-1 1-1h2c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1H5c-.55 0-1-.45-1-1v-12zm8.09 6.3l4.52-5.12c.2-.23.48-.35.78-.35h1.9c.86 0 1.32 1.02.74 1.67l-4.2 4.77 4.55 5.57c.5.61.06 1.56-.73 1.56h-2.06c-.3 0-.58-.13-.77-.36l-3.82-4.73-1.9 2.02v2.07c0 .55-.45 1-1 1h-1.9c-.55 0-1-.45-1-1V5.5c0-.55.45-1 1-1h1.9c.55 0 1 .45 1 1v6.3z"
+              />
+            </svg>
+          </a>
+          <!-- <a class="social-link" aria-label="LeetCode" href="#" target="_blank" rel="noopener noreferrer">
+            <span class="sr-only">LeetCode</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.56 3.44a1.5 1.5 0 012.12 0l3.88 3.88a1.5 1.5 0 010 2.12l-2.06 2.06a1.5 1.5 0 01-2.12 0l-1.06-1.06-4.95 4.95 1.06 1.06c.59.59.59 1.54 0 2.12l-2.06 2.06a1.5 1.5 0 01-2.12 0L3.44 17.8a1.5 1.5 0 010-2.12l2.06-2.06c.59-.59 1.54-.59 2.12 0l1.06 1.06 4.95-4.95-1.06-1.06a1.5 1.5 0 010-2.12l2.06-2.06z"/></svg>
+          </a> -->
+        </div>
+        <div class="contact-cta">
+          <a class="btn" href="mailto:sajidakhoso471@gmail.com">Email Me</a>
+        </div>
+        <p class="copyright">
+          ©<span id="year"></span> Sajida Khoso. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
