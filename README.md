@@ -39,8 +39,6 @@ The goal of this portfolio is to create a professional digital identity where re
 
 ---
 
-*(Replace with real links.)*
-
 ---
 
 ## 📜 License
