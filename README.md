@@ -30,7 +30,7 @@ Fully optimized for mobile and desktop devices.
 - **HTML5**  
 - **CSS3**  
 - **JavaScript**  
-- **AOS / GSAP animations** *(if used)*  
+- **AOS / GSAP animations** 
 
 ---
 
